@@ -1,0 +1,51 @@
+/*
+ * BOXZOOM
+ */
+.leaflet-control-boxzoom {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:36px;
+    display:block;
+    float:none; 
+    background-color:white;
+    border-radius:4px;
+    border:1px solid #cccccc;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    box-shadow:0 1px 2px rgba(0,0,0,0.65);
+    cursor:pointer !important;
+}
+
+.with-background-image {
+    background-image:url(/home/cantv/Documentos/biblioteca/ejercicio_map/assets/plugins/L.Control.BoxZoom-master/dist/interfaz.svg);
+    background-repeat:no-repeat;
+    background-size:25px 25px; /* 25px image, 25px box; subtract 2px for padding on every side = 21px rendering height */
+    background-position:2px 2px;
+}
+
+.leaflet-control-boxzoom.leaflet-control-boxzoom-active {
+    background-color:#aaaaaa;
+}
+
+.leaflet-container.leaflet-control-boxzoom-active, .leaflet-container.leaflet-control-boxzoom-active path.leaflet-interactive {
+    cursor:crosshair !important;
+}
+
+.leaflet-control-boxzoom i {
+    display:block;
+}
+
+.leaflet-control-boxzoom i.icon {
+    font-size:17px;
+    margin-left:1px;
+    margin-top:3px;
+}
+
+.leaflet-control-boxzoom i.fa {
+    margin-top:6px;
+}
+.leaflet-control-boxzoom i.glyphicon {
+    margin-top:5px;
+}
