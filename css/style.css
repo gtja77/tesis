@@ -1,0 +1,203 @@
+body {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width:100%;
+  height: 99%;
+  height: 96.7%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Customise Zoom Controls */
+
+.leaflet-control-zoom a {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.5s ease;
+}
+
+.leaflet-control-zoom a:hover {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Leaflet Layers Control */
+
+.leaflet-control-layers {
+  border-radius: none;
+  box-shadow: none;
+}
+
+.leaflet-control-layers-list {
+  font-size: 15px;
+  line-height: 12px;
+  background: none !important;
+  color: white;
+}
+
+.leaflet-control-layers-base {
+  line-height: 12px;
+  margin-top: 5px;
+}
+
+.leaflet-control-layers-overlays {
+  margin-top: 5px;
+}
+
+.leaflet-control-layers-expanded {
+  width: 100% !important;
+  padding: 0px;
+  background-color: transparent;
+  border: none !important;
+}
+
+#layercontrol {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#layercontrol .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+ 
+}
+/* SIDEBAR OVERRIDES*/
+.leaflet-sidebar-tabs {
+background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-sidebar-header {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-sidebar-content {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#sidebar > div.leaflet-sidebar-tabs > ul > li > a {
+  color: white !important;
+
+}
+
+#sidebar > div.leaflet-sidebar-tabs > ul > li:not(.disabled):not(.active) > a:hover {
+  color: black !important;
+
+}
+
+#latlng {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 7px 1px 3px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    display: none;
+  }
+  
+  /* LeafletJS Customistions */
+
+  /* Customise Zoom Controls */
+  
+  .leaflet-control-zoom a {
+    color: white !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    transition: all 0.5s ease;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+/* Customise Zoom Controls */
+
+.leaflet-control-zoom a {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.5s ease;
+}
+
+.leaflet-control-zoom a:hover {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+ /*PolylineP*/
+
+.polyline-measure-tooltip {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 10px;
+  background-color: rgba(255, 255, 170, 0.7);
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px #888;
+  margin: 0;
+  padding: 2px;
+  width: auto !important;
+  height: auto !important;
+  white-space: nowrap;
+    text-align: right;
+  
+}
+
+.polyline-measure-tooltip-end {
+  background-color: rgba(255, 255, 70, 0.7);
+  
+}
+
+.polyline-measure-tooltip-total {
+  
+  color: #006;
+    font-weight: bold;
+
+}
+
+.polyline-measure-tooltip-difference {
+  color: #060;
+  font-style: italic;
+  
+}
+
+.polyline-measure-unicode-icon {
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.leaflet-control {
+  cursor: pointer;
+ 
+}
+
+a.polyline-measure-clearControl:active {
+  background-color: #f88;
+ 
+}
