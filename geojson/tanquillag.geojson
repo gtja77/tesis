@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "tanquillag",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ADS": "A15", "OBSERVACIO": "Corte de cable 300\" y 200\"" }, "geometry": { "type": "Point", "coordinates": [ -66.53211104941866, 10.472748523191292 ] } },
+{ "type": "Feature", "properties": { "ADS": "A15", "OBSERVACIO": "Corte de cable 300\" y 200\"" }, "geometry": { "type": "Point", "coordinates": [ -66.532457491596844, 10.471657801499246 ] } },
+{ "type": "Feature", "properties": { "ADS": "A15", "OBSERVACIO": "Corte de cable 300\" y 200\"" }, "geometry": { "type": "Point", "coordinates": [ -66.532770343918926, 10.470196324845181 ] } }
+]
+}
