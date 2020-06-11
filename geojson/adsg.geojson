@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "adsg",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32619" } },
+"features": [
+{ "type": "Feature", "properties": { "EVENTO": "Vandalismo", "OBSERVACIO": "ADS-A03. Entrada de Urb. Las Rosas. Cortes de CC 01,02,03, 08 y 09." }, "geometry": { "type": "Point", "coordinates": [ 771528.0, 1157703.0 ] } },
+{ "type": "Feature", "properties": { "EVENTO": "Vandalismo", "OBSERVACIO": "ADS-A05. Cortes de CC 01,02,03, 08 y 09 (8000\")." }, "geometry": { "type": "Point", "coordinates": [ 771185.0, 1157694.0 ] } }
+]
+}
